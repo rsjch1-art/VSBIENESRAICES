@@ -1,0 +1,5 @@
+CORRECCION 18 OCT 2026
+La respuesta vacia HTTP 200 de Supabase es exitosa y ya no provoca Unexpected end of JSON input.
+Se incluyo la URL del proyecto y clave publishable publica. Nunca se incluyeron claves secretas o credenciales de administrador.
+Para probar: descomprime, ejecuta INICIAR_WEB.bat, entra a localhost:8000/admin.html, inicia sesion y comprueba que una propiedad de prueba se guarda.
+Importante: RLS, bucket y sus permisos deben verificarse antes de desplegar en produccion.
